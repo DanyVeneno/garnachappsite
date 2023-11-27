@@ -19,12 +19,12 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-montserrat font-bold ss:text-[72px] text-[52px] text-orange-100 ss:leading-[65px] leading-[75px]'>
+        <div className='flex flex-row justify-between items-center w-full -z-auto'>
+          <h1 className='flex-1 font-montserrat font-bold ss:text-[72px] text-[52px] text-orange-100 ss:leading-[65px] leading-[75px] '>
             <img
               src={logo}
               alt='logo'
-              className='w-[500px] h-[100px] animate-bounce'
+              className='w-[500px] h-[100px] animate-bounce '
             />{" "}
             <span className='text-orange-500'>
               Donde el usuario encuentra tu sazón,

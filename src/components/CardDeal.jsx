@@ -35,7 +35,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt='card' className='w-[100%] h-[80%] animate-pulse' />
+      <img src={card} alt='card' className='w-[100%] h-[80%] animate-bounce' />
     </div>
   </section>
 );
