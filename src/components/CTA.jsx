@@ -7,7 +7,11 @@ const CTA = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className='flex-1 flex flex-col'>
-      <img src={logodos} alt='logo' className='w-[450px] h-[100px]' />{" "}
+      <img
+        src={logodos}
+        alt='logo'
+        className='w-[450px] h-[100px] animate-pulse'
+      />{" "}
       <h2 className={styles.heading2}>
         <strong>Navega en la Aplicación Web</strong>
       </h2>
