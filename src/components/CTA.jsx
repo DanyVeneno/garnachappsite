@@ -1,6 +1,6 @@
 import styles from "../style";
 import Button from "./Button";
-import { logodos } from "../assets";
+import { tarjeta } from "../assets";
 
 const CTA = () => (
   <section
@@ -8,9 +8,9 @@ const CTA = () => (
   >
     <div className='flex-1 flex flex-col'>
       <img
-        src={logodos}
-        alt='logo'
-        className='w-[450px] h-[100px] animate-pulse'
+        src={tarjeta}
+        alt='tarjeta'
+        className='w-[500px] h-[300px] hover:animate-bounce '
       />{" "}
       <h2 className={styles.heading2}>
         <strong>Navega en la Aplicación Web</strong>
@@ -19,10 +19,8 @@ const CTA = () => (
         className={`${styles.paragraph} max-w-[470px] mt-5 text-zinc-800 font-semibold`}
       >
         {" "}
-        El conocimiento nace apartir de los sentidos y se desarrolla atravéz de
-        la razón.Siendo selectiva y sistematica en su rasgo cientifico, en
-        cambio es radical en su forma filosofica por la especifica función que
-        es el estudio del ser. El conocimiento valido es coherente.
+        Cuando termines de hacer tu pedido utiliza los datos de la tarjeta de
+        prueba para hacer el pago de tu compra.
       </p>
     </div>
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
