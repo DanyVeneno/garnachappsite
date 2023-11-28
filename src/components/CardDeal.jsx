@@ -16,7 +16,7 @@ const CardDeal = () => (
         El servicio de entrega a domicilio transforma por completo la
         experiencia culinaria para los usuarios y emprendedores. Al ofrecer este
         servicio, no solo brindamos conveniencia a nuestros clientes, sino que
-        también amplias la accesibilidad a una gran cantidad de ususario. Esta
+        también amplias la accesibilidad a una gran cantidad de usuarios. Esta
         facilidad en la entrega no solo fomenta la comodidad, sino que también
         potencia la expansión de los negocios culinarios asociados. Los
         emprendedores tienen la oportunidad de llegar a más consumidores,
