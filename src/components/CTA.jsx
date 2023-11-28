@@ -10,7 +10,7 @@ const CTA = () => (
       <img
         src={tarjeta}
         alt='tarjeta'
-        className='w-[500px] h-[300px] hover:animate-bounce '
+        className=' hover:animate-bounce w-[330px] h-[200px]'
       />{" "}
       <h2 className={styles.heading2}>
         <strong>Navega en la Aplicación Web</strong>

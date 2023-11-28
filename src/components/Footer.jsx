@@ -37,8 +37,8 @@ const Footer = () => (
         ))}
       </div>
     </div>
-    <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#d9f99d]'>
-      <p className='font-montserrat font-bold text-center text-[18px] leading-[27px] text-white'>
+    <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#f97316]'>
+      <p className='font-montserrat font-bold text-center text-[18px] leading-[27px] text-orange-100'>
         2024 @juanitovenenoestudio
       </p>
       <div className='flex flex-row md:mt-0 mt-6'>
