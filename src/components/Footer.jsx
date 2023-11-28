@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className='flex-1 flex flex-col justify-start mr-10'>
         <img src={logo} alt='jv' className='w-[266] h-[72px] object-contain' />
-        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+        <p className={`${styles.paragraph} mt-4 max-w-[310px] text-orange-100`}>
           Mejora la experiencia de tus usuario y empieza a implementar un
           ecosistema digital y agrega valor adicional.
         </p>
